@@ -6,7 +6,7 @@
 */
 function iman_script_enqueue() {
 	// css
-	wp_enqueue_style('customstyle', get_template_directory_uri() . '/_Assets/css/iman.css', array(), '1.0.0', 'all');
+	wp_enqueue_style('customstyle', get_template_directory_uri() . '/_Assets/css/iman.css', array(), '1.0.1', 'all');
 	// jquery and scroll
 	wp_enqueue_script( 'jquery', get_template_directory_uri() . '/_Assets/js/jquery.slim.min.js', array(), '1.0.0', true );
     wp_enqueue_script( 'bootsrap', get_template_directory_uri() . '/_Assets/js/bootstrap.bundle.min.js', array(), '1.0.0', true );

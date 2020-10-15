@@ -544,6 +544,12 @@ section.home {
   width: 90%;
 }
 
+@media only screen and (max-device-width: 767px) and (orientation: landscape) {
+  .home-logo {
+    width: 50%;
+  }
+}
+
 @keyframes fadeInFromNone {
   from { opacity: 0; }
   to { opacity: 1; }
